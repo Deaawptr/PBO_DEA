@@ -1,0 +1,142 @@
+/* Reset Margin dan Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e5; /* Cream lembut */
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Putih untuk konten */
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #d07b7b; /* Warna pink lembut untuk judul */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #e1c4c4; /* Border lembut pink muda */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4c9d0; /* Background pink muda */
+    color: #fff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f1eb; /* Baris genap dengan latar cream */
+}
+
+table tr:hover {
+    background-color: #f1e6e0; /* Hover effect pink lembut */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e1c4c4; /* Border pink lembut */
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f1eb; /* Background cream untuk input */
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button, .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #f99bba; /* Pink untuk tombol submit */
+}
+
+.btn {
+    background-color: #d07b7b; /* Pink lembut untuk tombol */
+}
+
+button[type="submit"]:hover, .btn:hover {
+    opacity: 0.85;
+    background-color: #db6e8b; /* Pink lebih gelap saat hover */
+}
+
+a {
+    color: white;
+}
+
+a.btn {
+    margin-right: 10px;
+    background-color: #f99bba; /* Pink lembut untuk tombol link */
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+a.btn:hover {
+    background-color: #db6e8b; /* Pink lebih gelap saat hover */
+}
+
+/* Form group untuk input */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style tombol dengan efek */
+.btn, button {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Styling untuk input text dan email */
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #d07b7b; /* Fokus border pink */
+    outline: none;
+    box-shadow: 0 0 8px rgba(208, 123, 123, 0.7);
+}

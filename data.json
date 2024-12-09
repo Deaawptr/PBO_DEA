@@ -1,0 +1,26 @@
+[
+    {
+        "id": "675676e76d34c",
+        "nama": "Crop",
+        "harga": "45000",
+        "stok": "35"
+    },
+    {
+        "id": "675677023e3f1",
+        "nama": "Kemeja Stripe",
+        "harga": "50000",
+        "stok": "25"
+    },
+    {
+        "id": "6756771e4d26a",
+        "nama": "Rok Jeans",
+        "harga": "80000",
+        "stok": "50"
+    },
+    {
+        "id": "6756773c407f8",
+        "nama": "Celana Cargo",
+        "harga": "95000",
+        "stok": "40"
+    }
+]
